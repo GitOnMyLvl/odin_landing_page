@@ -41,31 +41,31 @@ ul {
 
 /* Hero */
 
-.hero{
+.hero {
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    padding: 1em 16em;
+    padding: 6em 16em;
 }
 
-.hero-container{
+.hero-container {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.hero-title{
+.hero-title {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
 }
 
-.hero-subtext{
+.hero-subtext {
     font-size: 18px;
     color: #e5e7eb;
 }
 
-.hero .sign-up{
+.hero .sign-up {
     background-color: #3882f6;
     border: none;
     border-radius: 5px;
@@ -78,8 +78,9 @@ ul {
     width: 100px;
 }
 
-.hero .image{
-    width: 450px;
+.hero .image {
+    width: 400px;
+    min-width: 400px;
     height: 200px;
     background-color: gray;
     display: flex;
@@ -87,7 +88,7 @@ ul {
     align-items: center;
 }
 
-.hero .image div{
+.hero .image div {
     text-align: center;
     color: #f9faf8;
     max-width: 80%;
@@ -99,6 +100,7 @@ ul {
 
 .information {
     text-align: center;
+    margin: 6em 16em;
 }
 
 .information-title {
@@ -133,4 +135,79 @@ ul {
 .info .subtext {
     margin-top: 8px;
     text-align: center;
+}
+
+/* Quote */
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 36px 0px;
+    padding: 6em 16em;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.refference {
+    font-size: 18px;
+    color: #1f2937;
+    font-weight: bold;
+    text-align: right;
+}
+
+/* Call to action */
+.call-to-action {
+    display: flex;
+    background-color: #3882f6;
+    margin: 6em 16em;
+    padding: 3em 12em;
+    border-radius: 5px;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.call-to-action-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-to-action-title {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.call-to-action-text {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.call-to-action .sign-up {
+    background-color: #3882f6;
+    border: solid 2px #f9faf8;
+    border-radius: 5px;
+    color: #f9faf8;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100px;
+    margin-top: 16px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #1f2937;
+    padding: 2em 0em;
+    display: flex;
+    justify-content: center;
+    color: #f9faf8;
 }
